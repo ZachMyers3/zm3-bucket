@@ -1,9 +1,14 @@
 {
     "version": "1.9.5",
     "homepage": "https://github.com/Just2good/TFT-Overlay/",
-    "url": "https://github.com/Just2good/TFT-Overlay/releases/download/V1.9.5/TFT.Overlay.V1.9.5.rar",
+    "url": "https://github.com/Just2good/TFT-Overlay/releases/latest/download/TFT.Overlay.V1.9.5.rar",
     "hash": "504cbe273134f5b4a7d0788694096654d3d318eb60e8f04f6e36dd8d3e149bda",
+    "bin": "TFT Overlay.exe",
     "checkver": {
         "github": "https://github.com/Just2good/TFT-Overlay"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Just2good/TFT-Overlay/releases/latest/download/TFT.Overlay.V$version.rar",
+        "extract_dir": "TFT-Overlay-v$version"
     }
 }
